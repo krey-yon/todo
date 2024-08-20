@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsla(0, 0%, 0%, 1);
+    background: linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(240, 2%, 62%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(240, 2%, 62%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(240, 2%, 62%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#9C9C9F", GradientType=1 );
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(236, 1, 1, 0.1);
+    height: auto;
+    width: 40%;
+}
+
+.card h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input input{
+    font-size: large;
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.input button{
+    height: 40px;
+    width: 18%;
+    border: none;
+    background-color: #212121;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.greydiv{
+    margin: auto;
+    height: 2px;
+    width: 60%;
+    background-color: #ccc;
+}
+
+.list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list button{
+    width: 50px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
