@@ -66,6 +66,3 @@ function saveEditedText(taskText, editInput) {
     editInput.style.display = "none";
     taskText.style.display = "block";
 }
-
-
-
